@@ -1,6 +1,6 @@
 const AuthorFeatured = () => {
   return (
-    <section className="my-24 relative overflow-hidden rounded-[4rem] bg-neutral text-neutral-content p-8 md:p-20 border border-neutral-focus shadow-2xl">
+    <section className="my-24 relative overflow-hidden rounded-[2rem] bg-neutral text-neutral-content p-8 md:p-20 border border-neutral-focus shadow-2xl">
       <div className="absolute top-0 right-0 w-96 h-96 bg-primary/20 rounded-full blur-[100px] -mr-48 -mt-48"></div>
       <div className="absolute bottom-0 left-0 w-64 h-64 bg-secondary/10 rounded-full blur-[100px] -ml-32 -mb-32"></div>
       

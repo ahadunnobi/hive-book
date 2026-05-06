@@ -4,7 +4,7 @@ import booksData from "../../public/data.json";
 
 const FeaturedBooks = () => {
   // Select the top 4 books
-  const featuredBooks = booksData.slice(0, 4);
+  const featuredBooks = booksData.slice(0, 8);
 
   return (
     <section className="my-16">

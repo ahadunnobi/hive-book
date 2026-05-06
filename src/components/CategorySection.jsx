@@ -2,10 +2,13 @@ import categoriesData from "../../public/catagory.json";
 
 const CategorySection = () => {
   return (
-    <section className="my-24 py-12 px-4 md:px-8 bg-base-200/50 rounded-[4rem] border border-base-300">
-      <div className="text-center mb-16">
+    <section className="my-24 py-16 px-4 md:px-8 bg-gradient-to-tr from-base-100 via-base-200 to-base-100 rounded-[4rem] border border-base-200 shadow-inner relative overflow-hidden">
+      <div className="absolute -top-24 -left-24 w-64 h-64 bg-primary/5 rounded-full blur-3xl"></div>
+      <div className="absolute -bottom-24 -right-24 w-64 h-64 bg-secondary/5 rounded-full blur-3xl"></div>
+      
+      <div className="text-center mb-16 relative z-10">
         <h2 className="text-4xl md:text-5xl font-black mb-4 text-base-content">Explore by Genre</h2>
-        <p className="text-lg text-base-content/60 max-w-2xl mx-auto">
+        <p className="text-lg text-base-content/60 max-w-2xl mx-auto font-medium">
           Find your favorite books by browsing through our wide range of categories. From poetry to philosophy, we have it all.
         </p>
       </div>
