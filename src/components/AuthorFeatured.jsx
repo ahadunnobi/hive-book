@@ -6,7 +6,7 @@ const AuthorFeatured = () => {
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR64fVqgy9cPVvUF_Vwc5uBdGknIA3j4Hey-A&s"
   ]
   return (
-    <section className="my-16 relative overflow-hidden rounded-[4rem] bg-neutral text-neutral-content p-8 md:p-12 border border-neutral-focus shadow-2xl min-h-[60vh] flex items-center">
+    <section className="my-16 relative overflow-hidden rounded-[4rem] bg-neutral text-neutral-content p-8 md:p-12 border border-neutral-focus shadow-2xl min-h-screen flex items-center">
       {/* Dynamic Spotlight Effect */}
       <div className="absolute inset-0 z-0 bg-[radial-gradient(circle_at_50%_50%,rgba(var(--p),0.15),transparent_70%)] animate-pulse"></div>
       <div className="absolute top-0 right-0 w-64 h-64 bg-primary/20 rounded-full blur-[100px] -mr-32 -mt-32"></div>

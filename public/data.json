@@ -6,7 +6,9 @@
     "description": "A classic Bengali novel following the wandering life of Srikanta through love, loss and self-discovery.",
     "category": "Literature",
     "available_quantity": 12,
-    "image_url": "https://picsum.photos/seed/book1/300/400"
+    "image_url": "https://picsum.photos/seed/book1/300/400",
+    "rating": 3.8,
+    "price": 16.14
   },
   {
     "id": 2,
@@ -15,7 +17,9 @@
     "description": "A poignant tale of rural Bengal depicting childhood, poverty and the passage of time.",
     "category": "Literature",
     "available_quantity": 9,
-    "image_url": "https://picsum.photos/seed/book2/300/400"
+    "image_url": "https://picsum.photos/seed/book2/300/400",
+    "rating": 4,
+    "price": 27.6
   },
   {
     "id": 3,
@@ -24,7 +28,9 @@
     "description": "A novel exploring the tension between political idealism and personal love in colonial India.",
     "category": "Literature",
     "available_quantity": 7,
-    "image_url": "https://picsum.photos/seed/book3/300/400"
+    "image_url": "https://picsum.photos/seed/book3/300/400",
+    "rating": 4.8,
+    "price": 10.35
   },
   {
     "id": 4,
@@ -33,7 +39,9 @@
     "description": "A gripping story of religious exploitation in rural Bangladesh centered around a false shrine.",
     "category": "Literature",
     "available_quantity": 14,
-    "image_url": "https://picsum.photos/seed/book4/300/400"
+    "image_url": "https://picsum.photos/seed/book4/300/400",
+    "rating": 4.8,
+    "price": 13.85
   },
   {
     "id": 5,
@@ -42,7 +50,9 @@
     "description": "A lyrical account of man's relationship with untamed nature in the forests of Jharkhand.",
     "category": "Literature",
     "available_quantity": 6,
-    "image_url": "https://picsum.photos/seed/book5/300/400"
+    "image_url": "https://picsum.photos/seed/book5/300/400",
+    "rating": 4.5,
+    "price": 21.47
   },
   {
     "id": 6,
@@ -51,7 +61,9 @@
     "description": "Humayun Ahmed's vivid portrayal of Bangladeshi village life and its timeless human drama.",
     "category": "Literature",
     "available_quantity": 18,
-    "image_url": "https://picsum.photos/seed/book6/300/400"
+    "image_url": "https://picsum.photos/seed/book6/300/400",
+    "rating": 4.6,
+    "price": 13.64
   },
   {
     "id": 7,
@@ -60,7 +72,9 @@
     "description": "The story of Nitai, a poet of lower caste, and his dignified yet tragic life journey.",
     "category": "Literature",
     "available_quantity": 5,
-    "image_url": "https://picsum.photos/seed/book7/300/400"
+    "image_url": "https://picsum.photos/seed/book7/300/400",
+    "rating": 5,
+    "price": 10.9
   },
   {
     "id": 8,
@@ -69,7 +83,9 @@
     "description": "A moving narrative of social injustice, sacrifice and the resilience of the human spirit.",
     "category": "Literature",
     "available_quantity": 8,
-    "image_url": "https://picsum.photos/seed/book8/300/400"
+    "image_url": "https://picsum.photos/seed/book8/300/400",
+    "rating": 3.9,
+    "price": 25.29
   },
   {
     "id": 9,
@@ -78,7 +94,9 @@
     "description": "An intense exploration of love, duty and societal expectations in early 20th-century Bengal.",
     "category": "Literature",
     "available_quantity": 10,
-    "image_url": "https://picsum.photos/seed/book9/300/400"
+    "image_url": "https://picsum.photos/seed/book9/300/400",
+    "rating": 4.7,
+    "price": 22.58
   },
   {
     "id": 10,
@@ -87,7 +105,9 @@
     "description": "A tale of mistaken identity and star-crossed love set against the backdrop of the Ganges.",
     "category": "Literature",
     "available_quantity": 11,
-    "image_url": "https://picsum.photos/seed/book10/300/400"
+    "image_url": "https://picsum.photos/seed/book10/300/400",
+    "rating": 4,
+    "price": 29.02
   },
   {
     "id": 11,
@@ -96,7 +116,9 @@
     "description": "A celebrated anthology of Tagore's most beloved Bengali poems spanning his entire poetic career.",
     "category": "Poem",
     "available_quantity": 20,
-    "image_url": "https://picsum.photos/seed/book11/300/400"
+    "image_url": "https://picsum.photos/seed/book11/300/400",
+    "rating": 3.7,
+    "price": 14.12
   },
   {
     "id": 12,
@@ -105,7 +127,9 @@
     "description": "Iconic modernist poems including the legendary Banalata Sen, exploring beauty, solitude and longing.",
     "category": "Poem",
     "available_quantity": 15,
-    "image_url": "https://picsum.photos/seed/book12/300/400"
+    "image_url": "https://picsum.photos/seed/book12/300/400",
+    "rating": 3.5,
+    "price": 23.38
   },
   {
     "id": 13,
@@ -114,7 +138,9 @@
     "description": "A seminal collection of poems reflecting on creation, mortality and the eternal flow of time.",
     "category": "Poem",
     "available_quantity": 13,
-    "image_url": "https://picsum.photos/seed/book13/300/400"
+    "image_url": "https://picsum.photos/seed/book13/300/400",
+    "rating": 4.6,
+    "price": 15.78
   },
   {
     "id": 14,
@@ -123,7 +149,9 @@
     "description": "Nazrul's debut poetry collection igniting revolution, romanticism and spiritual fire.",
     "category": "Poem",
     "available_quantity": 14,
-    "image_url": "https://picsum.photos/seed/book14/300/400"
+    "image_url": "https://picsum.photos/seed/book14/300/400",
+    "rating": 4.7,
+    "price": 12.63
   },
   {
     "id": 15,
@@ -132,7 +160,9 @@
     "description": "Poems celebrating the serene landscape of rural Bengal with unparalleled natural imagery.",
     "category": "Poem",
     "available_quantity": 11,
-    "image_url": "https://picsum.photos/seed/book15/300/400"
+    "image_url": "https://picsum.photos/seed/book15/300/400",
+    "rating": 4.1,
+    "price": 12.77
   },
   {
     "id": 16,
@@ -141,7 +171,9 @@
     "description": "A lyrical dance-drama in verse form exploring themes of identity, beauty and unconditional love.",
     "category": "Poem",
     "available_quantity": 9,
-    "image_url": "https://picsum.photos/seed/book16/300/400"
+    "image_url": "https://picsum.photos/seed/book16/300/400",
+    "rating": 4.8,
+    "price": 15.29
   },
   {
     "id": 17,
@@ -150,7 +182,9 @@
     "description": "Fiery and tender verses by the rebel poet Nazrul, full of passion, patriotism and spirituality.",
     "category": "Poem",
     "available_quantity": 17,
-    "image_url": "https://picsum.photos/seed/book17/300/400"
+    "image_url": "https://picsum.photos/seed/book17/300/400",
+    "rating": 4.7,
+    "price": 29.92
   },
   {
     "id": 18,
@@ -159,7 +193,9 @@
     "description": "Comprehensive collection of poems by Bangladesh's most celebrated post-independence poet.",
     "category": "Poem",
     "available_quantity": 8,
-    "image_url": "https://picsum.photos/seed/book18/300/400"
+    "image_url": "https://picsum.photos/seed/book18/300/400",
+    "rating": 5,
+    "price": 23.67
   },
   {
     "id": 19,
@@ -168,7 +204,9 @@
     "description": "An introspective poetry collection where Tagore reflects on imagination, idealism and the self.",
     "category": "Poem",
     "available_quantity": 7,
-    "image_url": "https://picsum.photos/seed/book19/300/400"
+    "image_url": "https://picsum.photos/seed/book19/300/400",
+    "rating": 3.6,
+    "price": 18.95
   },
   {
     "id": 20,
@@ -177,7 +215,9 @@
     "description": "Al Mahmud's lyrical poems drawing on river imagery, folklore and rural Bangladeshi life.",
     "category": "Poem",
     "available_quantity": 10,
-    "image_url": "https://picsum.photos/seed/book20/300/400"
+    "image_url": "https://picsum.photos/seed/book20/300/400",
+    "rating": 4,
+    "price": 13.78
   },
   {
     "id": 21,
@@ -186,7 +226,9 @@
     "description": "A collection of psychological mysteries featuring the brilliant and eccentric professor Misir Ali.",
     "category": "Novel",
     "available_quantity": 22,
-    "image_url": "https://picsum.photos/seed/book21/300/400"
+    "image_url": "https://picsum.photos/seed/book21/300/400",
+    "rating": 3.9,
+    "price": 20.07
   },
   {
     "id": 22,
@@ -195,7 +237,9 @@
     "description": "Complete stories of Himu, the barefoot philosopher who wanders Dhaka in a yellow panjabi.",
     "category": "Novel",
     "available_quantity": 19,
-    "image_url": "https://picsum.photos/seed/book22/300/400"
+    "image_url": "https://picsum.photos/seed/book22/300/400",
+    "rating": 4.2,
+    "price": 20.71
   },
   {
     "id": 23,
@@ -204,7 +248,9 @@
     "description": "A haunting liberation war novel depicting the horrors of 1971 with deeply human characters.",
     "category": "Novel",
     "available_quantity": 16,
-    "image_url": "https://picsum.photos/seed/book23/300/400"
+    "image_url": "https://picsum.photos/seed/book23/300/400",
+    "rating": 3.9,
+    "price": 23.71
   },
   {
     "id": 24,
@@ -213,7 +259,9 @@
     "description": "Humayun Ahmed's debut novel set against family drama and the liberation war backdrop.",
     "category": "Novel",
     "available_quantity": 12,
-    "image_url": "https://picsum.photos/seed/book24/300/400"
+    "image_url": "https://picsum.photos/seed/book24/300/400",
+    "rating": 4.5,
+    "price": 10.1
   },
   {
     "id": 25,
@@ -222,7 +270,9 @@
     "description": "A seminal Bangladeshi novel weaving the 1969 uprising with the lives of ordinary Dhaka dwellers.",
     "category": "Novel",
     "available_quantity": 8,
-    "image_url": "https://picsum.photos/seed/book25/300/400"
+    "image_url": "https://picsum.photos/seed/book25/300/400",
+    "rating": 3.6,
+    "price": 20.51
   },
   {
     "id": 26,
@@ -231,6 +281,492 @@
     "description": "A lyrical novel about memory, city life and the haunting weight of history in Bangladesh.",
     "category": "Novel",
     "available_quantity": 6,
-    "image_url": "https://picsum.photos/seed/book26/300/400"
+    "image_url": "https://picsum.photos/seed/book26/300/400",
+    "rating": 3.6,
+    "price": 22.03
+  },
+  {
+    "id": 27,
+    "title": "Gora",
+    "author": "Rabindranath Tagore",
+    "description": "Tagore's longest novel exploring Indian nationalism, religion, and identity.",
+    "category": "Literature",
+    "available_quantity": 10,
+    "image_url": "https://picsum.photos/seed/book27/300/400",
+    "rating": 4.7,
+    "price": 22.28
+  },
+  {
+    "id": 28,
+    "title": "Chander Pahar",
+    "author": "Bibhutibhushan Bandyopadhyay",
+    "description": "The epic adventure of young Shankar in the wild forests and mountains of Africa.",
+    "category": "Novel",
+    "available_quantity": 15,
+    "image_url": "https://picsum.photos/seed/book28/300/400",
+    "rating": 4.8,
+    "price": 28.21
+  },
+  {
+    "id": 29,
+    "title": "Devdas",
+    "author": "Sarat Chandra Chattopadhyay",
+    "description": "A tragic story of unrequited love and social barriers that has become a cultural icon.",
+    "category": "Literature",
+    "available_quantity": 12,
+    "image_url": "https://picsum.photos/seed/book29/300/400",
+    "rating": 4.7,
+    "price": 11.34
+  },
+  {
+    "id": 30,
+    "title": "Aparajito",
+    "author": "Bibhutibhushan Bandyopadhyay",
+    "description": "The sequel to Pather Panchali, following Apu's journey into adulthood in Kolkata.",
+    "category": "Literature",
+    "available_quantity": 8,
+    "image_url": "https://picsum.photos/seed/book30/300/400",
+    "rating": 3.6,
+    "price": 22.79
+  },
+  {
+    "id": 31,
+    "title": "Feluda Samagra",
+    "author": "Satyajit Ray",
+    "description": "The adventures of Bengal's most famous private investigator, Pradosh C. Mitter.",
+    "category": "Novel",
+    "available_quantity": 25,
+    "image_url": "https://picsum.photos/seed/book31/300/400",
+    "rating": 4.6,
+    "price": 22.28
+  },
+  {
+    "id": 32,
+    "title": "Shanku Samagra",
+    "author": "Satyajit Ray",
+    "description": "Stories featuring the eccentric inventor Professor Shanku and his amazing creations.",
+    "category": "Novel",
+    "available_quantity": 20,
+    "image_url": "https://picsum.photos/seed/book32/300/400",
+    "rating": 4.9,
+    "price": 20
+  },
+  {
+    "id": 33,
+    "title": "Gitanjali",
+    "author": "Rabindranath Tagore",
+    "description": "The Nobel Prize-winning collection of spiritual and philosophical song offerings.",
+    "category": "Poem",
+    "available_quantity": 30,
+    "image_url": "https://picsum.photos/seed/book33/300/400",
+    "rating": 4.1,
+    "price": 20.67
+  },
+  {
+    "id": 34,
+    "title": "Jochna O Jononir Golpo",
+    "author": "Humayun Ahmed",
+    "description": "A massive, moving saga documenting the 1971 Bangladesh Liberation War.",
+    "category": "Novel",
+    "available_quantity": 14,
+    "image_url": "https://picsum.photos/seed/book34/300/400",
+    "rating": 4.1,
+    "price": 12.83
+  },
+  {
+    "id": 35,
+    "title": "Putul Nacher Itikatha",
+    "author": "Manik Bandopadhyay",
+    "description": "A profound look into the psyche of rural people and human nature.",
+    "category": "Literature",
+    "available_quantity": 7,
+    "image_url": "https://picsum.photos/seed/book35/300/400",
+    "rating": 4.4,
+    "price": 17.97
+  },
+  {
+    "id": 36,
+    "title": "Padma Nadir Majhi",
+    "author": "Manik Bandopadhyay",
+    "description": "A gritty portrayal of the lives of fishermen on the banks of the Padma river.",
+    "category": "Literature",
+    "available_quantity": 9,
+    "image_url": "https://picsum.photos/seed/book36/300/400",
+    "rating": 3.9,
+    "price": 21.72
+  },
+  {
+    "id": 37,
+    "title": "Shesher Kobita",
+    "author": "Rabindranath Tagore",
+    "description": "A lyrical novel that defines modern Bengali romanticism and intellectual love.",
+    "category": "Literature",
+    "available_quantity": 11,
+    "image_url": "https://picsum.photos/seed/book37/300/400",
+    "rating": 4,
+    "price": 16.89
+  },
+  {
+    "id": 38,
+    "title": "Deyal",
+    "author": "Humayun Ahmed",
+    "description": "A historical novel focusing on the political landscape of post-independence Bangladesh.",
+    "category": "Novel",
+    "available_quantity": 13,
+    "image_url": "https://picsum.photos/seed/book38/300/400",
+    "rating": 4.6,
+    "price": 27.59
+  },
+  {
+    "id": 39,
+    "title": "Aguner Poroshmoni",
+    "author": "Humayun Ahmed",
+    "description": "A tender story of a family living in occupied Dhaka during the 1971 war.",
+    "category": "Novel",
+    "available_quantity": 16,
+    "image_url": "https://picsum.photos/seed/book39/300/400",
+    "rating": 4.9,
+    "price": 28.81
+  },
+  {
+    "id": 40,
+    "title": "Sajano Bagan",
+    "author": "Manoj Mitra",
+    "description": "A play that blends dark humor with a social message about land and legacy.",
+    "category": "Literature",
+    "available_quantity": 5,
+    "image_url": "https://picsum.photos/seed/book40/300/400",
+    "rating": 3.7,
+    "price": 18.9
+  },
+  {
+    "id": 41,
+    "title": "Khowabnama",
+    "author": "Akhteruzzaman Elias",
+    "description": "A complex novel weaving history and myth during the partition of Bengal.",
+    "category": "Novel",
+    "available_quantity": 9,
+    "image_url": "https://picsum.photos/seed/book41/300/400",
+    "rating": 3.9,
+    "price": 11.63
+  },
+  {
+    "id": 42,
+    "title": "Shobdo Loke",
+    "author": "Humayun Ahmed",
+    "description": "A collection of stories exploring the supernatural and the unexplained.",
+    "category": "Novel",
+    "available_quantity": 12,
+    "image_url": "https://picsum.photos/seed/book42/300/400",
+    "rating": 4.1,
+    "price": 16.21
+  },
+  {
+    "id": 43,
+    "title": "Gitanjali",
+    "author": "Rabindranath Tagore",
+    "description": "Poetic offerings that brought global recognition to Bengali literature.",
+    "category": "Poem",
+    "available_quantity": 18,
+    "image_url": "https://picsum.photos/seed/book43/300/400",
+    "rating": 4,
+    "price": 19.63
+  },
+  {
+    "id": 44,
+    "title": "Jago Go Bhagini",
+    "author": "Begum Rokeya",
+    "description": "Important feminist writings advocating for the rights of women in Bengal.",
+    "category": "Literature",
+    "available_quantity": 20,
+    "image_url": "https://picsum.photos/seed/book44/300/400",
+    "rating": 4.1,
+    "price": 18.78
+  },
+  {
+    "id": 45,
+    "title": "Padmar Poly Dwip",
+    "author": "Abu Ishaque",
+    "description": "A story centered on the changing landscape and lives along the Padma River.",
+    "category": "Novel",
+    "available_quantity": 7,
+    "image_url": "https://picsum.photos/seed/book45/300/400",
+    "rating": 4.2,
+    "price": 28.21
+  },
+  {
+    "id": 46,
+    "title": "Sultana's Dream",
+    "author": "Begum Rokeya",
+    "description": "A feminist utopia set in 'Ladyland' where women rule and men are secluded.",
+    "category": "Literature",
+    "available_quantity": 15,
+    "image_url": "https://picsum.photos/seed/book46/300/400",
+    "rating": 4.8,
+    "price": 25.92
+  },
+  {
+    "id": 47,
+    "title": "Titas Ekti Nadir Naam",
+    "author": "Advaita Malla Burman",
+    "description": "The tragic saga of the fishing community on the banks of the Titas river.",
+    "category": "Novel",
+    "available_quantity": 6,
+    "image_url": "https://picsum.photos/seed/book47/300/400",
+    "rating": 4.5,
+    "price": 28.72
+  },
+  {
+    "id": 48,
+    "title": "Abol Tabol",
+    "author": "Sukumar Ray",
+    "description": "A collection of nonsense rhymes that is a staple of Bengali children's literature.",
+    "category": "Poem",
+    "available_quantity": 25,
+    "image_url": "https://picsum.photos/seed/book48/300/400",
+    "rating": 5,
+    "price": 23.41
+  },
+  {
+    "id": 49,
+    "title": "Ha-Ja-Ba-Ra-La",
+    "author": "Sukumar Ray",
+    "description": "A classic piece of nonsense fiction beloved by readers of all ages.",
+    "category": "Literature",
+    "available_quantity": 22,
+    "image_url": "https://picsum.photos/seed/book49/300/400",
+    "rating": 4.5,
+    "price": 27.7
+  },
+  {
+    "id": 50,
+    "title": "Pagla Dashu",
+    "author": "Sukumar Ray",
+    "description": "The humorous escapades of a schoolboy named Dashu and his friends.",
+    "category": "Novel",
+    "available_quantity": 19,
+    "image_url": "https://picsum.photos/seed/book50/300/400",
+    "rating": 3.7,
+    "price": 23.15
+  },
+  {
+    "id": 51,
+    "title": "Kajol",
+    "author": "Bibhutibhushan Bandyopadhyay",
+    "description": "The concluding part of the Apu trilogy, focusing on Apu's son Kajol.",
+    "category": "Literature",
+    "available_quantity": 10,
+    "image_url": "https://picsum.photos/seed/book51/300/400",
+    "rating": 4.6,
+    "price": 13.08
+  },
+  {
+    "id": 52,
+    "title": "Lal Nil Valobasha",
+    "author": "Humayun Azad",
+    "description": "An introductory book on the history of Bengali literature for younger readers.",
+    "category": "Literature",
+    "available_quantity": 14,
+    "image_url": "https://picsum.photos/seed/book52/300/400",
+    "rating": 4.1,
+    "price": 16.46
+  },
+  {
+    "id": 53,
+    "title": "Nari",
+    "author": "Humayun Azad",
+    "description": "A critical and influential work discussing the status and rights of women.",
+    "category": "Literature",
+    "available_quantity": 8,
+    "image_url": "https://picsum.photos/seed/book53/300/400",
+    "rating": 3.9,
+    "price": 10.12
+  },
+  {
+    "id": 54,
+    "title": "Dhaka 71",
+    "author": "Humayun Ahmed",
+    "description": "Memoirs and stories centered around the events in Dhaka during 1971.",
+    "category": "Novel",
+    "available_quantity": 11,
+    "image_url": "https://picsum.photos/seed/book54/300/400",
+    "rating": 3.8,
+    "price": 27.17
+  },
+  {
+    "id": 55,
+    "title": "Prothom Alo",
+    "author": "Sunil Gangopadhyay",
+    "description": "An epic historical novel depicting the Bengal Renaissance.",
+    "category": "Literature",
+    "available_quantity": 5,
+    "image_url": "https://picsum.photos/seed/book55/300/400",
+    "rating": 4.1,
+    "price": 13.23
+  },
+  {
+    "id": 56,
+    "title": "Sei Somoy",
+    "author": "Sunil Gangopadhyay",
+    "description": "A landmark novel that brings the 19th-century Kolkata to life.",
+    "category": "Literature",
+    "available_quantity": 7,
+    "image_url": "https://picsum.photos/seed/book56/300/400",
+    "rating": 4.8,
+    "price": 29.86
+  },
+  {
+    "id": 57,
+    "title": "Purbo-Pochim",
+    "author": "Sunil Gangopadhyay",
+    "description": "A novel exploring the lives of people on both sides of the Bengal partition.",
+    "category": "Novel",
+    "available_quantity": 6,
+    "image_url": "https://picsum.photos/seed/book57/300/400",
+    "rating": 4.9,
+    "price": 11.72
+  },
+  {
+    "id": 58,
+    "title": "Aranyer Din Ratri",
+    "author": "Sunil Gangopadhyay",
+    "description": "Four friends go to a forest for a vacation and confront their inner selves.",
+    "category": "Novel",
+    "available_quantity": 13,
+    "image_url": "https://picsum.photos/seed/book58/300/400",
+    "rating": 4.7,
+    "price": 23.26
+  },
+  {
+    "id": 59,
+    "title": "Kakababu Series",
+    "author": "Sunil Gangopadhyay",
+    "description": "Adventure and mystery stories featuring the detective Kakababu.",
+    "category": "Novel",
+    "available_quantity": 17,
+    "image_url": "https://picsum.photos/seed/book59/300/400",
+    "rating": 3.9,
+    "price": 20.3
+  },
+  {
+    "id": 60,
+    "title": "Bela Sheshe",
+    "author": "Humayun Ahmed",
+    "description": "A poignant novel about family, old age, and the passage of time.",
+    "category": "Novel",
+    "available_quantity": 12,
+    "image_url": "https://picsum.photos/seed/book60/300/400",
+    "rating": 4,
+    "price": 24.33
+  },
+  {
+    "id": 61,
+    "title": "Chitra",
+    "author": "Rabindranath Tagore",
+    "description": "A lyrical drama based on a character from the Mahabharata.",
+    "category": "Poem",
+    "available_quantity": 9,
+    "image_url": "https://picsum.photos/seed/book61/300/400",
+    "rating": 4.1,
+    "price": 20.63
+  },
+  {
+    "id": 62,
+    "title": "Balaka",
+    "author": "Rabindranath Tagore",
+    "description": "A collection of poems written during a transformative period in Tagore's life.",
+    "category": "Poem",
+    "available_quantity": 11,
+    "image_url": "https://picsum.photos/seed/book62/300/400",
+    "rating": 4.5,
+    "price": 22.13
+  },
+  {
+    "id": 63,
+    "title": "Kheya",
+    "author": "Rabindranath Tagore",
+    "description": "Reflective poems exploring themes of transition and the spiritual journey.",
+    "category": "Poem",
+    "available_quantity": 8,
+    "image_url": "https://picsum.photos/seed/book63/300/400",
+    "rating": 3.8,
+    "price": 20.69
+  },
+  {
+    "id": 64,
+    "title": "Ghare Baire",
+    "author": "Rabindranath Tagore",
+    "description": "A novel exploring the clash between Western ideas and traditional Indian culture.",
+    "category": "Literature",
+    "available_quantity": 10,
+    "image_url": "https://picsum.photos/seed/book64/300/400",
+    "rating": 3.8,
+    "price": 15.76
+  },
+  {
+    "id": 65,
+    "title": "Dak Ghar",
+    "author": "Rabindranath Tagore",
+    "description": "A play about a sick boy who waits for a letter from the king.",
+    "category": "Literature",
+    "available_quantity": 15,
+    "image_url": "https://picsum.photos/seed/book65/300/400",
+    "rating": 4.1,
+    "price": 28.74
+  },
+  {
+    "id": 66,
+    "title": "Raja",
+    "author": "Rabindranath Tagore",
+    "description": "A symbolic play about a queen's search for her unseen king.",
+    "category": "Literature",
+    "available_quantity": 7,
+    "image_url": "https://picsum.photos/seed/book66/300/400",
+    "rating": 4,
+    "price": 16.21
+  },
+  {
+    "id": 67,
+    "title": "Biswasan",
+    "author": "Humayun Ahmed",
+    "description": "A novel that dives into human psychology and the nature of belief.",
+    "category": "Novel",
+    "available_quantity": 14,
+    "image_url": "https://picsum.photos/seed/book67/300/400",
+    "rating": 3.9,
+    "price": 16.48
+  },
+  {
+    "id": 68,
+    "title": "Opekkha",
+    "author": "Humayun Ahmed",
+    "description": "A story about a family's long wait for a missing father.",
+    "category": "Novel",
+    "available_quantity": 18,
+    "image_url": "https://picsum.photos/seed/book68/300/400",
+    "rating": 3.7,
+    "price": 14.49
+  },
+  {
+    "id": 69,
+    "title": "Kobi Samrat",
+    "author": "Humayun Ahmed",
+    "description": "A fictionalized account of a poet's life and his struggles with art.",
+    "category": "Novel",
+    "available_quantity": 10,
+    "image_url": "https://picsum.photos/seed/book69/300/400",
+    "rating": 4,
+    "price": 16.83
+  },
+  {
+    "id": 70,
+    "title": "Daruchini Dwip",
+    "author": "Humayun Ahmed",
+    "description": "A group of friends travel to Saint Martin's Island in search of adventure and self.",
+    "category": "Novel",
+    "available_quantity": 13,
+    "image_url": "https://picsum.photos/seed/book70/300/400",
+    "rating": 4.6,
+    "price": 13.07
   }
 ]

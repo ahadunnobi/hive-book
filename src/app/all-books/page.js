@@ -1,5 +1,6 @@
 import AllBooksContainer from "@/components/AllBooksContainer";
-import { fetchBooks } from "@/lib/dataFetcher";
+import { fetchBooks, fetchCategories } from "@/lib/dataFetcher";
+import { Suspense } from "react";
 
 export const metadata = {
   title: "All Books | BookHive",
@@ -7,7 +8,10 @@ export const metadata = {
 };
 
 export default async function AllBooksPage() {
-  const books = await fetchBooks();
+  const [books, categories] = await Promise.all([
+    fetchBooks(),
+    fetchCategories()
+  ]);
 
   return (
     <div className="container mx-auto px-4 md:px-8 py-12">
@@ -20,7 +24,9 @@ export default async function AllBooksPage() {
         </p>
       </div>
 
-      <AllBooksContainer initialBooks={books} />
+      <Suspense fallback={<div>Loading books...</div>}>
+        <AllBooksContainer initialBooks={books} categories={categories} />
+      </Suspense>
     </div>
   );
 }
