@@ -1,0 +1,54 @@
+import Link from 'next/link';
+import Image from 'next/image';
+
+const Navbar = () => {
+  // Mock authentication state for now
+  const isLoggedIn = false;
+  const userName = "John Doe";
+
+  return (
+    <div className="navbar bg-base-100 shadow-md px-4 md:px-8 sticky top-0 z-50">
+      <div className="navbar-start">
+        <div className="dropdown">
+          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 border border-base-200">
+            <li><Link href="/" className="font-medium">Home</Link></li>
+            <li><Link href="/all-books" className="font-medium">All Books</Link></li>
+            <li><Link href="/profile" className="font-medium">My Profile</Link></li>
+          </ul>
+        </div>
+        <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+          <Image src="/logo.png" alt="BookHive Logo" width={40} height={40} className="rounded-lg shadow-sm" />
+          <span className="text-xl font-bold tracking-tight bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent hidden sm:inline-block">
+            BookHive
+          </span>
+        </Link>
+      </div>
+      <div className="navbar-center hidden lg:flex">
+        <ul className="menu menu-horizontal px-1 gap-4 font-medium text-base-content/80">
+          <li><Link href="/" className="hover:text-primary transition-colors focus:bg-primary/10">Home</Link></li>
+          <li><Link href="/all-books" className="hover:text-primary transition-colors focus:bg-primary/10">All Books</Link></li>
+          <li><Link href="/profile" className="hover:text-primary transition-colors focus:bg-primary/10">My Profile</Link></li>
+        </ul>
+      </div>
+      <div className="navbar-end">
+        {isLoggedIn ? (
+          <div className="flex items-center gap-4">
+            <span className="hidden md:inline-block font-semibold text-base-content/70">Hi, {userName}</span>
+            <button className="btn btn-error btn-sm btn-outline rounded-full px-6">Logout</button>
+          </div>
+        ) : (
+          <Link href="/login" className="btn btn-primary btn-sm md:btn-md rounded-full px-8 shadow-lg hover:shadow-primary/20 transition-all">
+            Login
+          </Link>
+        )}
+      </div>
+    </div>
+  );
+};
+
+export default Navbar;

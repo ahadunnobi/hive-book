@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Literature",
+    "slug": "literature",
+    "description": "Classic and contemporary Bengali literature"
+  },
+  {
+    "id": 2,
+    "name": "Philosophy",
+    "slug": "philosophy",
+    "description": "Philosophical works and essays"
+  },
+  {
+    "id": 3,
+    "name": "Poem",
+    "slug": "poem",
+    "description": "Poetry collections and verses"
+  },
+  {
+    "id": 4,
+    "name": "Novel",
+    "slug": "novel",
+    "description": "Novels and fictional narratives"
+  },
+  {
+    "id": 5,
+    "name": "Science",
+    "slug": "science",
+    "description": "Science and nature books"
+  },
+  {
+    "id": 6,
+    "name": "History",
+    "slug": "history",
+    "description": "Historical accounts and records"
+  },
+  {
+    "id": 7,
+    "name": "Religion",
+    "slug": "religion",
+    "description": "Religious texts and spiritual books"
+  }
+]
