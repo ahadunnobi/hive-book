@@ -1,0 +1,46 @@
+const BookCard = ({ book }) => {
+  return (
+    <div className="card bg-base-100 shadow-lg hover:shadow-2xl transition-all duration-300 cursor-pointer group border border-base-200 flex flex-col h-full">
+      {/* Book Cover Placeholder */}
+      <figure className="aspect-[3/4] bg-gradient-to-br from-primary/5 to-secondary/5 relative overflow-hidden group-hover:from-primary/10 transition-colors">
+        <div className="absolute inset-0 flex items-center justify-center text-primary/20 font-black text-4xl uppercase tracking-tighter -rotate-12 select-none">
+          {book.category}
+        </div>
+        <div className="absolute top-4 right-4 badge badge-primary font-bold shadow-md">Top Rated</div>
+      </figure>
+
+      {/* Book Info */}
+      <div className="card-body p-6 flex flex-col flex-grow">
+        <div className="flex-grow">
+          <div className="flex justify-between items-start mb-2">
+            <div className="badge badge-secondary badge-outline text-[10px] font-bold uppercase tracking-wider">
+              {book.category}
+            </div>
+            <div className="flex items-center gap-1">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-orange-400 fill-current" viewBox="0 0 24 24">
+                <path d="M12 .587l3.668 7.431 8.332 1.21-6.001 5.85 1.416 8.293L12 18.897l-7.417 3.901 1.416-8.293-6.001-5.85 8.332-1.21L12 .587z"/>
+              </svg>
+              <span className="text-xs font-bold">4.8</span>
+            </div>
+          </div>
+          <h3 className="text-lg font-bold line-clamp-2 group-hover:text-primary transition-colors mb-1 leading-tight text-base-content">
+            {book.title}
+          </h3>
+          <p className="text-sm text-base-content/60 font-medium mb-4 italic">by {book.author}</p>
+        </div>
+        
+        <div className="card-actions flex-col gap-3 mt-auto">
+          <div className="flex items-center justify-between w-full mb-1">
+            <span className="text-xl font-black text-primary">$19.99</span>
+            <span className="text-xs font-medium text-base-content/40">{book.available_quantity} copies left</span>
+          </div>
+          <button className="btn btn-primary btn-block rounded-xl group-hover:shadow-lg group-hover:shadow-primary/20 transition-all">
+            View Details
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default BookCard;

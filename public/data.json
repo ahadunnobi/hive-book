@@ -6,7 +6,7 @@
     "description": "A classic Bengali novel following the wandering life of Srikanta through love, loss and self-discovery.",
     "category": "Literature",
     "available_quantity": 12,
-    "image_url": "https://www.rokomari.com/book/1234/srikanta"
+    "image_url": "https://www.rokomari.com/book/cover/384/19644-original.jpg"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "description": "A poignant tale of rural Bengal depicting childhood, poverty and the passage of time.",
     "category": "Literature",
     "available_quantity": 9,
-    "image_url": "https://www.rokomari.com/book/1235/pather-panchali"
+    "image_url": "https://www.rokomari.com/book/cover/384/19645-original.jpg"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "description": "A novel exploring the tension between political idealism and personal love in colonial India.",
     "category": "Literature",
     "available_quantity": 7,
-    "image_url": "https://www.rokomari.com/book/1236/char-adhyay"
+    "image_url": "https://www.rokomari.com/book/cover/384/19646-original.jpg"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "description": "A gripping story of religious exploitation in rural Bangladesh centered around a false shrine.",
     "category": "Literature",
     "available_quantity": 14,
-    "image_url": "https://www.rokomari.com/book/1237/lalsalu"
+    "image_url": "https://www.rokomari.com/book/cover/384/19647-original.jpg"
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "description": "A lyrical account of man's relationship with untamed nature in the forests of Jharkhand.",
     "category": "Literature",
     "available_quantity": 6,
-    "image_url": "https://www.rokomari.com/book/1238/aranyak"
+    "image_url": "https://www.rokomari.com/book/cover/384/19648-original.jpg"
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
     "description": "Humayun Ahmed's vivid portrayal of Bangladeshi village life and its timeless human drama.",
     "category": "Literature",
     "available_quantity": 18,
-    "image_url": "https://www.rokomari.com/book/1239/dighi-kotha"
+    "image_url": "https://www.rokomari.com/book/cover/384/19649-original.jpg"
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "description": "The story of Nitai, a poet of lower caste, and his dignified yet tragic life journey.",
     "category": "Literature",
     "available_quantity": 5,
-    "image_url": "https://www.rokomari.com/book/1240/kabi"
+    "image_url": "https://www.rokomari.com/book/cover/384/19650-original.jpg"
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "description": "A moving narrative of social injustice, sacrifice and the resilience of the human spirit.",
     "category": "Literature",
     "available_quantity": 8,
-    "image_url": "https://www.rokomari.com/book/1241/datta"
+    "image_url": "https://www.rokomari.com/book/cover/384/19651-original.jpg"
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@
     "description": "An intense exploration of love, duty and societal expectations in early 20th-century Bengal.",
     "category": "Literature",
     "available_quantity": 10,
-    "image_url": "https://www.rokomari.com/book/1242/grihadaha"
+    "image_url": "https://www.rokomari.com/book/cover/384/19652-original.jpg"
   },
   {
     "id": 10,
@@ -87,7 +87,7 @@
     "description": "A tale of mistaken identity and star-crossed love set against the backdrop of the Ganges.",
     "category": "Literature",
     "available_quantity": 11,
-    "image_url": "https://www.rokomari.com/book/1243/naukadubi"
+    "image_url": "https://www.rokomari.com/book/cover/384/19653-original.jpg"
   },
   {
     "id": 11,
@@ -96,7 +96,7 @@
     "description": "A celebrated anthology of Tagore's most beloved Bengali poems spanning his entire poetic career.",
     "category": "Poem",
     "available_quantity": 20,
-    "image_url": "https://www.rokomari.com/book/2001/sanchayita"
+    "image_url": "https://www.rokomari.com/book/cover/384/19654-original.jpg"
   },
   {
     "id": 12,
@@ -105,52 +105,52 @@
     "description": "Iconic modernist poems including the legendary Banalata Sen, exploring beauty, solitude and longing.",
     "category": "Poem",
     "available_quantity": 15,
-    "image_url": "https://www.rokomari.com/book/2002/banalata-sen"
+    "image_url": "https://www.rokomari.com/book/cover/384/19655-original.jpg"
   },
   {
     "id": 13,
     "title": "Sonar Tari",
     "author": "Rabindranath Tagore",
-    "description": "A seminal collection of poems reflecting on creation, mortality, and the eternal flow of time.",
+    "description": "A seminal collection of poems reflecting on creation, mortality and the eternal flow of time.",
     "category": "Poem",
     "available_quantity": 13,
-    "image_url": "https://www.rokomari.com/book/2003/sonar-tari"
+    "image_url": "https://www.rokomari.com/book/cover/384/19656-original.jpg"
   },
   {
     "id": 14,
-    "title": "Dinguli Mor",
-    "author": "Kazi Nazrul Islam",
-    "description": "Fiery and tender verses by the rebel poet Nazrul, full of passion, patriotism and spirituality.",
-    "category": "Poem",
-    "available_quantity": 17,
-    "image_url": "https://www.rokomari.com/book/2004/dinguli-mor"
-  },
-  {
-    "id": 15,
-    "title": "Chitrangada",
-    "author": "Rabindranath Tagore",
-    "description": "A lyrical dance-drama in verse form exploring themes of identity, beauty and unconditional love.",
-    "category": "Poem",
-    "available_quantity": 9,
-    "image_url": "https://www.rokomari.com/book/2005/chitrangada"
-  },
-  {
-    "id": 16,
-    "title": "Rupshi Bangla",
-    "author": "Jibanananda Das",
-    "description": "Poems celebrating the serene landscape of rural Bengal with unparalleled natural imagery.",
-    "category": "Poem",
-    "available_quantity": 11,
-    "image_url": "https://www.rokomari.com/book/2006/rupshi-bangla"
-  },
-  {
-    "id": 17,
     "title": "Agnibeena",
     "author": "Kazi Nazrul Islam",
     "description": "Nazrul's debut poetry collection igniting revolution, romanticism and spiritual fire.",
     "category": "Poem",
     "available_quantity": 14,
-    "image_url": "https://www.rokomari.com/book/2007/agnibeena"
+    "image_url": "https://www.rokomari.com/book/cover/384/19657-original.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Rupshi Bangla",
+    "author": "Jibanananda Das",
+    "description": "Poems celebrating the serene landscape of rural Bengal with unparalleled natural imagery.",
+    "category": "Poem",
+    "available_quantity": 11,
+    "image_url": "https://www.rokomari.com/book/cover/384/19658-original.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Chitrangada",
+    "author": "Rabindranath Tagore",
+    "description": "A lyrical dance-drama in verse form exploring themes of identity, beauty and unconditional love.",
+    "category": "Poem",
+    "available_quantity": 9,
+    "image_url": "https://www.rokomari.com/book/cover/384/19659-original.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Dinguli Mor",
+    "author": "Kazi Nazrul Islam",
+    "description": "Fiery and tender verses by the rebel poet Nazrul, full of passion, patriotism and spirituality.",
+    "category": "Poem",
+    "available_quantity": 17,
+    "image_url": "https://www.rokomari.com/book/cover/384/19660-original.jpg"
   },
   {
     "id": 18,
@@ -159,7 +159,7 @@
     "description": "Comprehensive collection of poems by Bangladesh's most celebrated post-independence poet.",
     "category": "Poem",
     "available_quantity": 8,
-    "image_url": "https://www.rokomari.com/book/2008/kobita-samagra"
+    "image_url": "https://www.rokomari.com/book/cover/384/19661-original.jpg"
   },
   {
     "id": 19,
@@ -168,7 +168,7 @@
     "description": "An introspective poetry collection where Tagore reflects on imagination, idealism and the self.",
     "category": "Poem",
     "available_quantity": 7,
-    "image_url": "https://www.rokomari.com/book/2009/manasi"
+    "image_url": "https://www.rokomari.com/book/cover/384/19662-original.jpg"
   },
   {
     "id": 20,
@@ -177,7 +177,7 @@
     "description": "Al Mahmud's lyrical poems drawing on river imagery, folklore and rural Bangladeshi life.",
     "category": "Poem",
     "available_quantity": 10,
-    "image_url": "https://www.rokomari.com/book/2010/pratidiner-shabda"
+    "image_url": "https://www.rokomari.com/book/cover/384/19663-original.jpg"
   },
   {
     "id": 21,
@@ -186,7 +186,7 @@
     "description": "A collection of psychological mysteries featuring the brilliant and eccentric professor Misir Ali.",
     "category": "Novel",
     "available_quantity": 22,
-    "image_url": "https://www.rokomari.com/book/3001/misir-ali-omnibus"
+    "image_url": "https://www.rokomari.com/book/cover/384/19664-original.jpg"
   },
   {
     "id": 22,
@@ -195,7 +195,7 @@
     "description": "Complete stories of Himu, the barefoot philosopher who wanders Dhaka in a yellow panjabi.",
     "category": "Novel",
     "available_quantity": 19,
-    "image_url": "https://www.rokomari.com/book/3002/himu-rachanasamagra"
+    "image_url": "https://www.rokomari.com/book/cover/384/19665-original.jpg"
   },
   {
     "id": 23,
@@ -204,7 +204,7 @@
     "description": "A haunting liberation war novel depicting the horrors of 1971 with deeply human characters.",
     "category": "Novel",
     "available_quantity": 16,
-    "image_url": "https://www.rokomari.com/book/3003/shongkhonil-karagar"
+    "image_url": "https://www.rokomari.com/book/cover/384/19666-original.jpg"
   },
   {
     "id": 24,
@@ -213,420 +213,15 @@
     "description": "Humayun Ahmed's debut novel set against family drama and the liberation war backdrop.",
     "category": "Novel",
     "available_quantity": 12,
-    "image_url": "https://www.rokomari.com/book/3004/nondito-naroke"
+    "image_url": "https://www.rokomari.com/book/cover/384/19667-original.jpg"
   },
   {
     "id": 25,
     "title": "Chilekotha Sepoai",
     "author": "Akhteruzzaman Elias",
-    "description": "A seminal Bangladeshi novel weaving the 1969 uprising with the lives of ordinary Dhaka dwellers.",
+    "description": "A seminal Bangladeshi novel weaving the 1969 uprising with local folklore.",
     "category": "Novel",
-    "available_quantity": 8,
-    "image_url": "https://www.rokomari.com/book/3005/chilekotha-sepoai"
-  },
-  {
-    "id": 26,
-    "title": "Matir Jahaj",
-    "author": "Shahidul Zahir",
-    "description": "A lyrical novel about memory, city life and the haunting weight of history in Bangladesh.",
-    "category": "Novel",
-    "available_quantity": 6,
-    "image_url": "https://www.rokomari.com/book/3006/matir-jahaj"
-  },
-  {
-    "id": 27,
-    "title": "Alal O Dulal",
-    "author": "Pyarichand Mitra",
-    "description": "One of the earliest Bengali novels, a satirical social comedy of 19th-century Calcutta life.",
-    "category": "Novel",
-    "available_quantity": 4,
-    "image_url": "https://www.rokomari.com/book/3007/alal-o-dulal"
-  },
-  {
-    "id": 28,
-    "title": "Devdas",
-    "author": "Sarat Chandra Chattopadhyay",
-    "description": "The timeless tragic love story of Devdas and Paro, consumed by passion and self-destruction.",
-    "category": "Novel",
-    "available_quantity": 21,
-    "image_url": "https://www.rokomari.com/book/3008/devdas"
-  },
-  {
-    "id": 29,
-    "title": "Parineeta",
-    "author": "Sarat Chandra Chattopadhyay",
-    "description": "A tender novel of love, sacrifice and social class in early twentieth-century Bengal.",
-    "category": "Novel",
-    "available_quantity": 13,
-    "image_url": "https://www.rokomari.com/book/3009/parineeta"
-  },
-  {
-    "id": 30,
-    "title": "Rajlakshmi O Srikanta",
-    "author": "Sarat Chandra Chattopadhyay",
-    "description": "The beloved story of Srikanta's enduring bond with the enigmatic and free-spirited Rajlakshmi.",
-    "category": "Novel",
-    "available_quantity": 9,
-    "image_url": "https://www.rokomari.com/book/3010/rajlakshmi-o-srikanta"
-  },
-  {
-    "id": 31,
-    "title": "Bigganer Aloy",
-    "author": "Abdulla Al-Muti",
-    "description": "An accessible introduction to the wonders of science written for curious Bengali readers of all ages.",
-    "category": "Science",
-    "available_quantity": 17,
-    "image_url": "https://www.rokomari.com/book/4001/bigganer-aloy"
-  },
-  {
-    "id": 32,
-    "title": "Rupantar",
-    "author": "Muhammad Zafar Iqbal",
-    "description": "Science fiction exploring genetic transformation and the ethical frontiers of modern biotechnology.",
-    "category": "Science",
-    "available_quantity": 14,
-    "image_url": "https://www.rokomari.com/book/4002/rupantar"
-  },
-  {
-    "id": 33,
-    "title": "Kosmos",
-    "author": "Carl Sagan (trans.)",
-    "description": "Bengali translation of Sagan's landmark exploration of the universe and humanity's place in it.",
-    "category": "Science",
-    "available_quantity": 11,
-    "image_url": "https://www.rokomari.com/book/4003/kosmos"
-  },
-  {
-    "id": 34,
-    "title": "Brihot Biggan",
-    "author": "Zafar Iqbal",
-    "description": "A comprehensive popular-science book covering physics, chemistry and biology for general readers.",
-    "category": "Science",
-    "available_quantity": 9,
-    "image_url": "https://www.rokomari.com/book/4004/brihot-biggan"
-  },
-  {
-    "id": 35,
-    "title": "Shakti O Padartha",
-    "author": "Abdulla Al-Muti",
-    "description": "An engaging Bengali exploration of energy, matter and the fundamental laws of physics.",
-    "category": "Science",
-    "available_quantity": 7,
-    "image_url": "https://www.rokomari.com/book/4005/shakti-o-padartha"
-  },
-  {
-    "id": 36,
-    "title": "Jibon O Bhumondol",
-    "author": "Binayak Sen",
-    "description": "A science book connecting ecology, life sciences and environmental issues for Bengali audiences.",
-    "category": "Science",
     "available_quantity": 5,
-    "image_url": "https://www.rokomari.com/book/4006/jibon-o-bhumondol"
-  },
-  {
-    "id": 37,
-    "title": "Biggan O Bigganmona",
-    "author": "Jamal Nazrul Islam",
-    "description": "Essays by the eminent Bangladeshi scientist promoting scientific thinking and rational inquiry.",
-    "category": "Science",
-    "available_quantity": 8,
-    "image_url": "https://www.rokomari.com/book/4007/biggan-o-bigganmona"
-  },
-  {
-    "id": 38,
-    "title": "Manober Utpatti",
-    "author": "Charles Darwin (trans.)",
-    "description": "Bengali translation of Darwin's groundbreaking work on the descent and evolution of humanity.",
-    "category": "Science",
-    "available_quantity": 6,
-    "image_url": "https://www.rokomari.com/book/4008/manober-utpatti"
-  },
-  {
-    "id": 39,
-    "title": "Rohossomoy Brohmandb",
-    "author": "Stephen Hawking (trans.)",
-    "description": "Bengali adaptation of Hawking's accessible exploration of time, space and black holes.",
-    "category": "Science",
-    "available_quantity": 13,
-    "image_url": "https://www.rokomari.com/book/4009/rohossomoy-brohmandb"
-  },
-  {
-    "id": 40,
-    "title": "Jontromanaber Jugey",
-    "author": "Anisur Rahman",
-    "description": "A popular-science look at the age of machines, automation and artificial intelligence in Bengali.",
-    "category": "Science",
-    "available_quantity": 10,
-    "image_url": "https://www.rokomari.com/book/4010/jontromanaber-jugey"
-  },
-  {
-    "id": 41,
-    "title": "Jibaner Darshan",
-    "author": "Aroj Ali Matubbar",
-    "description": "Rational philosophical essays questioning religious dogma and championing free thought in Bangladesh.",
-    "category": "Philosophy",
-    "available_quantity": 15,
-    "image_url": "https://www.rokomari.com/book/5001/jibaner-darshan"
-  },
-  {
-    "id": 42,
-    "title": "Shatta O Kalapurush",
-    "author": "Aroj Ali Matubbar",
-    "description": "Matubbar's inquiry into truth, the cosmos and the nature of the divine from a rationalist lens.",
-    "category": "Philosophy",
-    "available_quantity": 11,
-    "image_url": "https://www.rokomari.com/book/5002/shatta-o-kalapurush"
-  },
-  {
-    "id": 43,
-    "title": "Manush O Biswas",
-    "author": "Aroj Ali Matubbar",
-    "description": "A philosophical exploration of human belief systems, superstition and the quest for reason.",
-    "category": "Philosophy",
-    "available_quantity": 9,
-    "image_url": "https://www.rokomari.com/book/5003/manush-o-biswas"
-  },
-  {
-    "id": 44,
-    "title": "Boudh Darshan",
-    "author": "Dharmananda Kosambi (trans.)",
-    "description": "An introduction to Buddhist philosophical thought and the teachings of the Dhamma in Bengali.",
-    "category": "Philosophy",
-    "available_quantity": 7,
-    "image_url": "https://www.rokomari.com/book/5004/boudh-darshan"
-  },
-  {
-    "id": 45,
-    "title": "Jiboner Artha",
-    "author": "Viktor Frankl (trans.)",
-    "description": "Bengali translation of Frankl's Man's Search for Meaning, exploring purpose through suffering.",
-    "category": "Philosophy",
-    "available_quantity": 18,
-    "image_url": "https://www.rokomari.com/book/5005/jiboner-artha"
-  },
-  {
-    "id": 46,
-    "title": "Probondho Samagra",
-    "author": "Rabindranath Tagore",
-    "description": "Tagore's collected philosophical essays on life, art, education, religion and human civilization.",
-    "category": "Philosophy",
-    "available_quantity": 14,
-    "image_url": "https://www.rokomari.com/book/5006/probondho-samagra"
-  },
-  {
-    "id": 47,
-    "title": "Darshan Parichiti",
-    "author": "Gobinda Chandra Dev",
-    "description": "An accessible Bengali introduction to world philosophy by the martyred Bangladeshi philosopher.",
-    "category": "Philosophy",
-    "available_quantity": 6,
-    "image_url": "https://www.rokomari.com/book/5007/darshan-parichiti"
-  },
-  {
-    "id": 48,
-    "title": "Stoicism: Jibon Badol",
-    "author": "Ryan Holiday (trans.)",
-    "description": "Bengali adaptation of stoic philosophy for modern readers seeking resilience and practical wisdom.",
-    "category": "Philosophy",
-    "available_quantity": 12,
-    "image_url": "https://www.rokomari.com/book/5008/stoicism-jibon-badol"
-  },
-  {
-    "id": 49,
-    "title": "Niti O Manobota",
-    "author": "Immanuel Kant (trans.)",
-    "description": "Bengali rendering of Kantian ethics exploring duty, morality and categorical imperatives.",
-    "category": "Philosophy",
-    "available_quantity": 5,
-    "image_url": "https://www.rokomari.com/book/5009/niti-o-manobota"
-  },
-  {
-    "id": 50,
-    "title": "Satyagraha",
-    "author": "Mahatma Gandhi (trans.)",
-    "description": "Gandhi's philosophy of nonviolent resistance, truth-force and moral courage in Bengali.",
-    "category": "Philosophy",
-    "available_quantity": 10,
-    "image_url": "https://www.rokomari.com/book/5010/satyagraha"
-  },
-  {
-    "id": 51,
-    "title": "Bangladesher Itihash",
-    "author": "Sirajul Islam",
-    "description": "A comprehensive scholarly history of Bangladesh from ancient times through independence.",
-    "category": "History",
-    "available_quantity": 13,
-    "image_url": "https://www.rokomari.com/book/6001/bangladesher-itihash"
-  },
-  {
-    "id": 52,
-    "title": "Ekattorer Dinguli",
-    "author": "Jahanara Imam",
-    "description": "The personal diary of a liberation war mother documenting the horrors and heroism of 1971.",
-    "category": "History",
-    "available_quantity": 20,
-    "image_url": "https://www.rokomari.com/book/6002/ekattorer-dinguli"
-  },
-  {
-    "id": 53,
-    "title": "Muktijuddher Itihas",
-    "author": "M. R. Akhtar Mukul",
-    "description": "A detailed historical account of the nine-month liberation war that created Bangladesh.",
-    "category": "History",
-    "available_quantity": 16,
-    "image_url": "https://www.rokomari.com/book/6003/muktijuddher-itihas"
-  },
-  {
-    "id": 54,
-    "title": "Banglar Itihas",
-    "author": "Ramesh Chandra Majumdar",
-    "description": "A scholarly chronicle of Bengal's history spanning from ancient kingdoms to the modern era.",
-    "category": "History",
-    "available_quantity": 8,
-    "image_url": "https://www.rokomari.com/book/6004/banglar-itihas"
-  },
-  {
-    "id": 55,
-    "title": "Mughal Bharat",
-    "author": "Jadunath Sarkar (trans.)",
-    "description": "A Bengali account of the Mughal Empire's rise, grandeur and eventual decline in the subcontinent.",
-    "category": "History",
-    "available_quantity": 6,
-    "image_url": "https://www.rokomari.com/book/6005/mughal-bharat"
-  },
-  {
-    "id": 56,
-    "title": "Palashi Theke Bangladesh",
-    "author": "Salimullah Khan",
-    "description": "An intellectual history tracing the journey from the Battle of Plassey to the birth of Bangladesh.",
-    "category": "History",
-    "available_quantity": 9,
-    "image_url": "https://www.rokomari.com/book/6006/palashi-theke-bangladesh"
-  },
-  {
-    "id": 57,
-    "title": "Prithibibyapi Itihas",
-    "author": "H. G. Wells (trans.)",
-    "description": "Bengali translation of Wells's sweeping outline of world history from prehistoric times to modernity.",
-    "category": "History",
-    "available_quantity": 7,
-    "image_url": "https://www.rokomari.com/book/6007/prithibibyapi-itihas"
-  },
-  {
-    "id": 58,
-    "title": "Bangabandhu Jibon O Rajniti",
-    "author": "Moinul Hossain",
-    "description": "A biographical and political history of Sheikh Mujibur Rahman and the making of Bangladesh.",
-    "category": "History",
-    "available_quantity": 18,
-    "image_url": "https://www.rokomari.com/book/6008/bangabandhu-jibon-o-rajniti"
-  },
-  {
-    "id": 59,
-    "title": "Onnyo Ek Itihash",
-    "author": "Howard Zinn (trans.)",
-    "description": "Bengali rendering of Zinn's people's history, centering marginalized voices over rulers and empires.",
-    "category": "History",
-    "available_quantity": 11,
-    "image_url": "https://www.rokomari.com/book/6009/onnyo-ek-itihash"
-  },
-  {
-    "id": 60,
-    "title": "Sultanate O Mughal Shashon",
-    "author": "Abu Mohammad Habibullah",
-    "description": "An academic study of Sultanate and Mughal rule in Bengal and its cultural and social legacies.",
-    "category": "History",
-    "available_quantity": 5,
-    "image_url": "https://www.rokomari.com/book/6010/sultanate-o-mughal-shashon"
-  },
-  {
-    "id": 61,
-    "title": "Al Quran: Bangla Anubad",
-    "author": "Maulana Muhiuddin Khan",
-    "description": "A widely read and authoritative Bengali translation of the Holy Quran with explanatory notes.",
-    "category": "Religion",
-    "available_quantity": 35,
-    "image_url": "https://www.rokomari.com/book/7001/al-quran-bangla-anubad"
-  },
-  {
-    "id": 62,
-    "title": "Sahih Bukhari",
-    "author": "Imam Bukhari (trans.)",
-    "description": "Bengali translation of the most authentic hadith collection, essential for Islamic scholarship.",
-    "category": "Religion",
-    "available_quantity": 25,
-    "image_url": "https://www.rokomari.com/book/7002/sahih-bukhari"
-  },
-  {
-    "id": 63,
-    "title": "Islam O Adhunik Jiban",
-    "author": "Abul Ala Maududi",
-    "description": "Maududi's exploration of how Islamic principles apply to modern personal and social life.",
-    "category": "Religion",
-    "available_quantity": 18,
-    "image_url": "https://www.rokomari.com/book/7003/islam-o-adhunik-jiban"
-  },
-  {
-    "id": 64,
-    "title": "Sirat-un-Nabi",
-    "author": "Shibli Nomani (trans.)",
-    "description": "A scholarly Bengali biography of Prophet Muhammad (PBUH) tracing his life and spiritual mission.",
-    "category": "Religion",
-    "available_quantity": 14,
-    "image_url": "https://www.rokomari.com/book/7004/sirat-un-nabi"
-  },
-  {
-    "id": 65,
-    "title": "Gita O Manab Dharma",
-    "author": "Swami Vivekananda (trans.)",
-    "description": "Bengali commentary on the Bhagavad Gita and its relevance to human ethics and self-realization.",
-    "category": "Religion",
-    "available_quantity": 10,
-    "image_url": "https://www.rokomari.com/book/7005/gita-o-manab-dharma"
-  },
-  {
-    "id": 66,
-    "title": "Dharma O Niti",
-    "author": "Rabindranath Tagore",
-    "description": "Tagore's reflections on religion, moral life, and the spiritual dimensions of human existence.",
-    "category": "Religion",
-    "available_quantity": 8,
-    "image_url": "https://www.rokomari.com/book/7006/dharma-o-niti"
-  },
-  {
-    "id": 67,
-    "title": "Quran Majeed: Tafsir",
-    "author": "Maulana Ashraf Ali Thanawi (trans.)",
-    "description": "A widely referenced Bengali tafsir offering detailed explanation and context for Quranic verses.",
-    "category": "Religion",
-    "available_quantity": 22,
-    "image_url": "https://www.rokomari.com/book/7007/quran-majeed-tafsir"
-  },
-  {
-    "id": 68,
-    "title": "Bishwas O Mukti",
-    "author": "Jibanananda Das",
-    "description": "Philosophical poems and prose exploring faith, doubt and the search for spiritual liberation.",
-    "category": "Religion",
-    "available_quantity": 6,
-    "image_url": "https://www.rokomari.com/book/7008/bishwas-o-mukti"
-  },
-  {
-    "id": 69,
-    "title": "Hindu Dharmer Parichiti",
-    "author": "Sarvapalli Radhakrishnan (trans.)",
-    "description": "Bengali introduction to Hinduism's philosophy, rituals and diverse theological traditions.",
-    "category": "Religion",
-    "available_quantity": 9,
-    "image_url": "https://www.rokomari.com/book/7009/hindu-dharmer-parichiti"
-  },
-  {
-    "id": 70,
-    "title": "Bouddho Dharma O Darshan",
-    "author": "Bhikkhu Buddhaghosha (trans.)",
-    "description": "A Bengali overview of Buddhist teachings, the Eightfold Path and the path to nirvana.",
-    "category": "Religion",
-    "available_quantity": 7,
-    "image_url": "https://www.rokomari.com/book/7010/bouddho-dharma-o-darshan"
+    "image_url": "https://rokomari.com"
   }
 ]

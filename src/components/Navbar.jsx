@@ -29,7 +29,7 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 gap-4 font-medium text-base-content/80">
+        <ul className="menu menu-horizontal px-1 gap-4 font-medium text-base-content">
           <li><Link href="/" className="hover:text-primary transition-colors focus:bg-primary/10">Home</Link></li>
           <li><Link href="/all-books" className="hover:text-primary transition-colors focus:bg-primary/10">All Books</Link></li>
           <li><Link href="/profile" className="hover:text-primary transition-colors focus:bg-primary/10">My Profile</Link></li>
