@@ -1,11 +1,27 @@
+import Link from "next/link";
+
 const BookCard = ({ book }) => {
   return (
-    <div className="card bg-base-100 shadow-lg hover:shadow-2xl transition-all duration-300 cursor-pointer group border border-base-200 flex flex-col h-full">
-      {/* Book Cover Placeholder */}
-      <figure className="aspect-[3/4] bg-gradient-to-br from-primary/5 to-secondary/5 relative overflow-hidden group-hover:from-primary/10 transition-colors">
-        <div className="absolute inset-0 flex items-center justify-center text-primary/20 font-black text-4xl uppercase tracking-tighter -rotate-12 select-none">
-          {book.category}
-        </div>
+    <div className="card bg-base-100 shadow-lg hover:shadow-2xl transition-all duration-300 cursor-pointer group border border-base-200 flex flex-col h-full overflow-hidden">
+      {/* Book Cover */}
+      <figure className="aspect-[3/4] bg-gradient-to-br from-primary/5 to-secondary/5 relative overflow-hidden group-hover:scale-105 transition-transform duration-500">
+        {book.image_url ? (
+          <img 
+            src={book.image_url} 
+            alt={book.title} 
+            className="w-full h-full object-cover"
+            onError={(e) => {
+              e.target.onerror = null; 
+              e.target.style.display = 'none';
+              e.target.parentNode.classList.add('flex', 'items-center', 'justify-center');
+              e.target.parentNode.innerHTML = `<div class="text-primary/20 font-black text-4xl uppercase tracking-tighter -rotate-12 select-none">${book.category}</div>`;
+            }}
+          />
+        ) : (
+          <div className="absolute inset-0 flex items-center justify-center text-primary/20 font-black text-4xl uppercase tracking-tighter -rotate-12 select-none">
+            {book.category}
+          </div>
+        )}
         <div className="absolute top-4 right-4 badge badge-primary font-bold shadow-md">Top Rated</div>
       </figure>
 
@@ -34,9 +50,11 @@ const BookCard = ({ book }) => {
             <span className="text-xl font-black text-primary">$19.99</span>
             <span className="text-xs font-medium text-base-content/40">{book.available_quantity} copies left</span>
           </div>
-          <button className="btn btn-primary btn-block rounded-xl group-hover:shadow-lg group-hover:shadow-primary/20 transition-all">
-            View Details
-          </button>
+          <Link href={`/book/${book.id}`} className="w-full">
+            <button className="btn btn-primary btn-block rounded-xl group-hover:shadow-lg group-hover:shadow-primary/20 transition-all font-bold">
+              View Details
+            </button>
+          </Link>
         </div>
       </div>
     </div>

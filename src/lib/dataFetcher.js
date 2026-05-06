@@ -1,21 +1,34 @@
-// Utility functions to fetch data from local JSON files asynchronously
-// In a real application, these would be API calls.
+// Utility functions to fetch data from local JSON files using the native fetch() function.
+// This mimics fetching data from an external API endpoint.
+
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
 
 export const fetchBooks = async () => {
-  // Simulating an asynchronous data fetch
-  return new Promise((resolve) => {
-    // We import the data dynamically or just return the imported data
-    // to simulate the async nature of a database or API call.
-    import("../../public/data.json").then((data) => {
-      resolve(data.default);
+  try {
+    const response = await fetch(`${BASE_URL}/data.json`, {
+      cache: "no-store", // Ensure we get fresh data
     });
-  });
+    if (!response.ok) {
+      throw new Error("Failed to fetch books");
+    }
+    return await response.json();
+  } catch (error) {
+    console.error("Error fetching books:", error);
+    return [];
+  }
 };
 
 export const fetchCategories = async () => {
-  return new Promise((resolve) => {
-    import("../../public/catagory.json").then((data) => {
-      resolve(data.default);
+  try {
+    const response = await fetch(`${BASE_URL}/catagory.json`, {
+      cache: "no-store",
     });
-  });
+    if (!response.ok) {
+      throw new Error("Failed to fetch categories");
+    }
+    return await response.json();
+  } catch (error) {
+    console.error("Error fetching categories:", error);
+    return [];
+  }
 };
