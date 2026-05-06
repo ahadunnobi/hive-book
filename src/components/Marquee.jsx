@@ -19,7 +19,7 @@ const Marquee = () => {
   };
 
   return (
-    <div className="my-2 py-4 overflow-hidden whitespace-nowrap relative shadow-sm border-y border-base-200 bg-base-100">
+    <div className="py-4 overflow-hidden whitespace-nowrap relative shadow-sm border-y border-base-200 bg-base-100">
       <div className="inline-block animate-marquee hover:pause cursor-default">
         {announcements.map((item, index) => (
           <span key={index} className="font-bold mx-12 text-sm md:text-base tracking-widest uppercase">

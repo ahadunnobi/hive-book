@@ -5,7 +5,7 @@ const CallToAction = () => {
       <div className="absolute bottom-0 left-0 w-64 h-64 bg-secondary/20 rounded-full blur-3xl -ml-32 -mb-32"></div>
       
       <div className="max-w-xl text-center md:text-left z-10">
-        <h2 className="text-4xl md:text-5xl font-black mb-6 leading-tight text-base-content">
+        <h2 className="text-4xl md:text-5xl font-black mb-6 leading-tight text-base-content text-secondary">
           Start Your <span className="text-primary italic">Reading Journey</span> Today
         </h2>
         <p className="text-xl text-base-content/70 leading-relaxed font-medium">
