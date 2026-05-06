@@ -85,7 +85,7 @@ const AllBooksContainer = ({ initialBooks, categories }) => {
           <input
             type="text"
             placeholder="Search by book title..."
-            className="input input-bordered w-full pl-16 py-8 rounded-2xl text-xl shadow-lg focus:ring-4 focus:ring-primary/10 transition-all border-base-300"
+            className="input input-bordered w-full pl-16 py-8 rounded-2xl text-xl text-base-content shadow-lg focus:ring-4 focus:ring-primary/10 transition-all border-base-300"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
@@ -105,7 +105,7 @@ const AllBooksContainer = ({ initialBooks, categories }) => {
         <div className="flex items-center justify-between border-b border-base-200 pb-4">
           <div className="flex items-center gap-3">
             <span className="badge badge-primary font-bold">{selectedCategory}</span>
-            <p className="text-base-content/60 font-semibold">
+            <p className="text-base-content font-bold">
               Showing {filteredBooks.length} {filteredBooks.length === 1 ? "book" : "books"}
             </p>
           </div>
@@ -126,7 +126,7 @@ const AllBooksContainer = ({ initialBooks, categories }) => {
               </svg>
             </div>
             <h3 className="text-2xl font-bold text-base-content mb-2">No books found</h3>
-            <p className="text-base-content/60">Try selecting a different category or refining your search.</p>
+            <p className="text-base-content font-medium">Try selecting a different category or refining your search.</p>
           </div>
         )}
       </div>

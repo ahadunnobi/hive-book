@@ -16,10 +16,10 @@ export default async function AllBooksPage() {
   return (
     <div className="container mx-auto px-4 md:px-8 py-12">
       <div className="mb-12">
-        <h1 className="text-4xl md:text-6xl font-black text-base-content mb-4 tracking-tight">
-          Explore Our <span className="text-primary italic">Library</span>
+        <h1 className="text-4xl md:text-6xl font-black text-primary mb-4 tracking-tight">
+          Explore Our <span className="italic">Library</span>
         </h1>
-        <p className="text-xl text-base-content/60 max-w-2xl font-medium">
+        <p className="text-xl text-base-content font-medium max-w-2xl">
           Search through thousands of titles and find your next masterpiece.
         </p>
       </div>

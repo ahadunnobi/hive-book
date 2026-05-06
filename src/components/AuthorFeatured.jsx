@@ -6,7 +6,7 @@ const AuthorFeatured = () => {
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR64fVqgy9cPVvUF_Vwc5uBdGknIA3j4Hey-A&s"
   ]
   return (
-    <section className="my-16 relative overflow-hidden rounded-[4rem] bg-neutral text-neutral-content p-8 md:p-12 border border-neutral-focus shadow-2xl min-h-screen flex items-center">
+    <section className="my-16 relative overflow-hidden rounded-[4rem] bg-neutral text-neutral-content p-8 md:p-12 border border-neutral-focus shadow-2xl min-h-screen lg:min-h-[70vh] flex items-center">
       {/* Dynamic Spotlight Effect */}
       <div className="absolute inset-0 z-0 bg-[radial-gradient(circle_at_50%_50%,rgba(var(--p),0.15),transparent_70%)] animate-pulse"></div>
       <div className="absolute top-0 right-0 w-64 h-64 bg-primary/20 rounded-full blur-[100px] -mr-32 -mt-32"></div>
@@ -30,7 +30,7 @@ const AuthorFeatured = () => {
           </div>
         </div>
 
-        <div className="w-full lg:w-1/2 grid grid-cols-2 gap-4">
+        <div className="w-full lg:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-6">
           {[
             { title: "Gitanjali", type: "Poetry Collection", img: featBook[0] },
             { title: "Gora", type: "Classic Novel", img: featBook[1] },
@@ -39,7 +39,7 @@ const AuthorFeatured = () => {
           ].map((book, idx) => (
             <div 
               key={idx} 
-              className={`aspect-[3/4] relative rounded-2xl overflow-hidden border border-white/10 group cursor-pointer hover:border-primary/50 transition-all ${idx % 2 === 1 ? 'mt-8' : ''}`}
+              className={`aspect-[3/4] relative rounded-2xl overflow-hidden border border-white/10 group cursor-pointer hover:border-primary/50 transition-all ${idx % 2 === 1 ? 'sm:mt-8' : ''}`}
             >
               <img src={book.img} alt={book.title} className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-80"></div>

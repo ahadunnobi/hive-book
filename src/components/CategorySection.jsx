@@ -10,7 +10,7 @@ const CategorySection = async () => {
       
       <div className="text-center mb-16 relative z-10">
         <h2 className="text-4xl md:text-5xl font-black mb-4 text-primary drop-shadow-sm">Explore by Category</h2>
-        <p className="text-lg text-base-content/70 max-w-2xl mx-auto font-medium italic">
+        <p className="text-lg text-base-content max-w-2xl mx-auto font-medium italic">
           Find your favorite books by browsing through our wide range of categories. From poetry to philosophy, we have it all.
         </p>
       </div>

@@ -32,7 +32,7 @@ const FeaturedBooks = () => {
       <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-4">
         <div>
           <h2 className="text-4xl font-black mb-3 text-primary">Top Featured Books</h2>
-          <p className="text-secondary text-lg font-medium italic">Discover our most popular and highly-rated reads.</p>
+          <p className="text-base-content text-lg font-semibold italic">Discover our most popular and highly-rated reads.</p>
         </div>
         <Link href="/all-books" className="btn btn-outline btn-primary rounded-full px-8 hover:scale-105 transition-transform">
           View All Books →

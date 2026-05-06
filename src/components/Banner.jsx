@@ -25,7 +25,7 @@ const Banner = () => {
           <h1 className="text-5xl md:text-7xl font-black mb-6 leading-tight text-base-content">
             Find Your <span className="text-primary italic">Next</span> Read
           </h1>
-          <p className="text-lg md:text-xl mb-10 text-base-content/70 font-medium max-w-lg leading-relaxed">
+          <p className="text-lg md:text-xl mb-10 text-base-content font-medium max-w-lg leading-relaxed">
             Dive into our curated collection of literary masterpieces. From timeless classics to modern gems, your journey starts here.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
