@@ -1,6 +1,7 @@
-import categoriesData from "../../public/catagory.json";
+import { fetchCategories } from "@/lib/dataFetcher";
 
-const CategorySection = () => {
+const CategorySection = async () => {
+  const categoriesData = await fetchCategories();
   return (
     <section className="my-24 py-16 px-4 md:px-8 bg-gradient-to-tr from-base-100 via-base-200 to-base-100 rounded-[4rem] border border-base-200 shadow-inner relative overflow-hidden">
       <div className="absolute -top-24 -left-24 w-64 h-64 bg-primary/5 rounded-full blur-3xl"></div>

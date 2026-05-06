@@ -1,8 +1,11 @@
 import Link from "next/link";
 import BookCard from "./BookCard";
-import booksData from "../../public/data.json";
+import { fetchBooks } from "@/lib/dataFetcher";
 
-const FeaturedBooks = () => {
+const FeaturedBooks = async () => {
+  // Fetch books asynchronously from the local "server"
+  const booksData = await fetchBooks();
+  
   // Select the top 4 books
   const featuredBooks = booksData.slice(0, 4);
 
