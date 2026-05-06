@@ -65,9 +65,9 @@ const AllBooksContainer = ({ initialBooks, categories }) => {
         </div>
         
         {/* Quick Info */}
-        <div className="hidden lg:block bg-primary/5 p-6 rounded-3xl border border-primary/20">
+        <div className="hidden lg:block bg-primary/10 p-6 rounded-3xl border border-primary/20">
           <h4 className="font-bold text-primary mb-2">Member Perk</h4>
-          <p className="text-xs text-base-content/60 leading-relaxed font-medium">
+          <p className="text-xs text-secondary leading-relaxed font-bold">
             Join the BookHive club to get 20% off on your first 3 purchases in any category!
           </p>
         </div>
@@ -105,7 +105,7 @@ const AllBooksContainer = ({ initialBooks, categories }) => {
         <div className="flex items-center justify-between border-b border-base-200 pb-4">
           <div className="flex items-center gap-3">
             <span className="badge badge-primary font-bold">{selectedCategory}</span>
-            <p className="text-base-content font-bold">
+            <p className="text-neutral text-secondary">
               Showing {filteredBooks.length} {filteredBooks.length === 1 ? "book" : "books"}
             </p>
           </div>
@@ -126,7 +126,7 @@ const AllBooksContainer = ({ initialBooks, categories }) => {
               </svg>
             </div>
             <h3 className="text-2xl font-bold text-base-content mb-2">No books found</h3>
-            <p className="text-base-content font-medium">Try selecting a different category or refining your search.</p>
+            <p className="text-neutral font-bold">Try selecting a different category or refining your search.</p>
           </div>
         )}
       </div>

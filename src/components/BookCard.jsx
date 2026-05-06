@@ -6,7 +6,7 @@ const BookCard = ({ book }) => {
   return (
     <div className="card bg-base-100 shadow-lg hover:shadow-2xl transition-all duration-300 cursor-pointer group border border-base-200 flex flex-col h-full overflow-hidden">
       {/* Book Cover */}
-      <figure className="aspect-[3/4] bg-gradient-to-br from-primary/5 to-secondary/5 relative overflow-hidden group-hover:scale-105 transition-transform duration-500">
+      <figure className="aspect-[3/2] bg-gradient-to-br from-primary/5 to-secondary/5 relative overflow-hidden group-hover:scale-105 transition-transform duration-500">
         {book.image_url ? (
           <img 
             src={book.image_url} 
