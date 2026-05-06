@@ -23,8 +23,8 @@ const Navbar = () => {
         </div>
         <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
           <Image src="/logo.png" alt="BookHive Logo" width={40} height={40} className="rounded-lg shadow-sm" />
-          <span className="text-xl font-bold tracking-tight bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent hidden sm:inline-block">
-            BookHive
+          <span className="text-xl font-bold tracking-tight text-base-content hidden sm:inline-block">
+            Book<span className="text-primary">Hive</span>
           </span>
         </Link>
       </div>

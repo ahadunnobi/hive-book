@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Banner = () => {
   return (
-    <div className="hero min-h-[65vh] bg-base-200 rounded-3xl overflow-hidden my-8 shadow-2xl relative border border-base-300">
+    <div className="hero min-h-[65vh] bg-base-200 rounded-3xl overflow-hidden shadow-2xl relative border border-base-300">
       <div className="hero-content flex-col lg:flex-row-reverse p-0 gap-0 w-full max-w-none">
         {/* Right Side: Image */}
         <div className="w-full lg:w-1/2 h-[300px] lg:h-[65vh] relative overflow-hidden">

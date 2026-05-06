@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-8">
           {/* Logo and About */}
           <div>
-            <h2 className="text-2xl font-bold text-white mb-4">BookHive</h2>
+            <h2 className="text-2xl font-bold text-white mb-4">Book Hive</h2>
             <p className="text-sm opacity-80 leading-relaxed">
               Your ultimate destination for discovering great books and managing your reading list. Join our community of book lovers today.
             </p>
