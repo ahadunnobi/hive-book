@@ -1,4 +1,10 @@
 const AuthorFeatured = () => {
+  const featBook =[
+    "https://cdn.exoticindia.com/images/products/original/books-2019-003/bae398.webp",
+    "https://media-cache.cinematerial.com/p/500x/4ikme4is/chokher-bali-german-dvd-movie-cover.jpg?v=1456292954",
+    "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1182381908i/1268541.jpg",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR64fVqgy9cPVvUF_Vwc5uBdGknIA3j4Hey-A&s"
+  ]
   return (
     <section className="my-16 relative overflow-hidden rounded-[4rem] bg-neutral text-neutral-content p-8 md:p-12 border border-neutral-focus shadow-2xl min-h-[60vh] flex items-center">
       {/* Dynamic Spotlight Effect */}
@@ -25,30 +31,25 @@ const AuthorFeatured = () => {
         </div>
 
         <div className="w-full lg:w-1/2 grid grid-cols-2 gap-4">
-          <div className="space-y-4">
-            <div className="aspect-video lg:aspect-[3/2] bg-white/5 rounded-2xl p-6 border border-white/10 flex flex-col justify-end hover:bg-white/10 transition-all cursor-pointer group hover:border-primary/50 relative overflow-hidden">
-               <div className="absolute top-0 right-0 w-24 h-24 bg-primary/5 rounded-full blur-2xl group-hover:bg-primary/20 transition-colors"></div>
-              <h4 className="font-bold text-lg mb-1 group-hover:text-primary relative z-10">Gitanjali</h4>
-              <p className="text-xs opacity-60 relative z-10">Poetry Collection</p>
+          {[
+            { title: "Gitanjali", type: "Poetry Collection", img: featBook[0] },
+            { title: "Gora", type: "Classic Novel", img: featBook[1] },
+            { title: "Chokher Bali", type: "Romantic Drama", img: featBook[2] },
+            { title: "Shesher Kobita", type: "Lyrical Novel", img: featBook[3] }
+          ].map((book, idx) => (
+            <div 
+              key={idx} 
+              className={`aspect-[3/4] relative rounded-2xl overflow-hidden border border-white/10 group cursor-pointer hover:border-primary/50 transition-all ${idx % 2 === 1 ? 'mt-8' : ''}`}
+            >
+              <img src={book.img} alt={book.title} className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-80"></div>
+              <div className="absolute inset-0 p-6 flex flex-col justify-end z-10">
+                <div className="absolute top-0 right-0 w-20 h-20 bg-primary/10 rounded-full blur-2xl group-hover:bg-primary/30 transition-colors"></div>
+                <h4 className="font-bold text-lg mb-1 group-hover:text-primary transition-colors text-white">{book.title}</h4>
+                <p className="text-xs opacity-70 text-white font-medium">{book.type}</p>
+              </div>
             </div>
-            <div className="aspect-video lg:aspect-[3/2] bg-white/5 rounded-2xl p-6 border border-white/10 flex flex-col justify-end hover:bg-white/10 transition-all cursor-pointer group hover:border-primary/50 relative overflow-hidden">
-               <div className="absolute top-0 right-0 w-24 h-24 bg-primary/5 rounded-full blur-2xl group-hover:bg-primary/20 transition-colors"></div>
-              <h4 className="font-bold text-lg mb-1 group-hover:text-primary relative z-10">Gora</h4>
-              <p className="text-xs opacity-60 relative z-10">Classic Novel</p>
-            </div>
-          </div>
-          <div className="space-y-4 pt-8">
-            <div className="aspect-video lg:aspect-[3/2] bg-white/5 rounded-2xl p-6 border border-white/10 flex flex-col justify-end hover:bg-white/10 transition-all cursor-pointer group hover:border-primary/50 relative overflow-hidden">
-               <div className="absolute top-0 right-0 w-24 h-24 bg-primary/5 rounded-full blur-2xl group-hover:bg-primary/20 transition-colors"></div>
-              <h4 className="font-bold text-lg mb-1 group-hover:text-primary relative z-10">Chokher Bali</h4>
-              <p className="text-xs opacity-60 relative z-10">Romantic Drama</p>
-            </div>
-            <div className="aspect-video lg:aspect-[3/2] bg-white/5 rounded-2xl p-6 border border-white/10 flex flex-col justify-end hover:bg-white/10 transition-all cursor-pointer group hover:border-primary/50 relative overflow-hidden">
-               <div className="absolute top-0 right-0 w-24 h-24 bg-primary/5 rounded-full blur-2xl group-hover:bg-primary/20 transition-colors"></div>
-              <h4 className="font-bold text-lg mb-1 group-hover:text-primary relative z-10">Shesher Kobita</h4>
-              <p className="text-xs opacity-60 relative z-10">Lyrical Novel</p>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>

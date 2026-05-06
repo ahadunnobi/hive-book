@@ -1,7 +1,7 @@
 // Utility functions to fetch data from local JSON files using the native fetch() function.
 // This mimics fetching data from an external API endpoint.
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
+const BASE_URL = "http://localhost:3000" || "https://hive-book.vercel.app";
 
 export const fetchBooks = async () => {
   try {
