@@ -19,7 +19,7 @@ export default function RegisterPage() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     const { name, email, photoUrl, password } = formData;
     
@@ -28,7 +28,7 @@ export default function RegisterPage() {
       return;
     }
     
-    register(name, email, photoUrl, password);
+    await register(name, email, photoUrl, password);
   };
 
   return (

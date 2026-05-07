@@ -10,13 +10,13 @@ export default function LoginPage() {
   const [password, setPassword] = useState("");
   const { login, googleLogin } = useAuth();
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (!email || !password) {
       toast.error("Please fill in all fields");
       return;
     }
-    login(email, password);
+    await login(email, password);
   };
 
   return (
