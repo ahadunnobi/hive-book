@@ -2,7 +2,7 @@
 // Using force-cache to ensure the data is stored/cached for performance.
 
 const getBaseUrl = () => {
-  return  "https://bookhibe-server.onrender.com";
+  return process.env.NEXT_PUBLIC_DATA_API || "https://bookhibe-server.onrender.com";
 };
 
 export const fetchBooks = async () => {
@@ -36,3 +36,20 @@ export const fetchCategories = async () => {
     return [];
   }
 };
+
+export const fetchBookById = async (id) => {
+  try {
+    const url = `${getBaseUrl()}/book/${id}`;
+    const response = await fetch(url, {
+      cache: "force-cache",
+    });
+    if (!response.ok) {
+      throw new Error(`Failed to fetch book with id ${id}`);
+    }
+    return await response.json();
+  } catch (error) {
+    console.error(`Error fetching book ${id}:`, error);
+    return null;
+  }
+};
+

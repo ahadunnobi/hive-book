@@ -105,7 +105,7 @@ const AllBooksContainer = ({ initialBooks, categories }) => {
         <div className="flex items-center justify-between border-b border-base-200 pb-4">
           <div className="flex items-center gap-3">
             <span className="badge badge-primary font-bold">{selectedCategory}</span>
-            <p className="text-neutral text-secondary">
+            <p className="text-base-content/80 font-medium">
               Showing {filteredBooks.length} {filteredBooks.length === 1 ? "book" : "books"}
             </p>
           </div>
@@ -126,7 +126,7 @@ const AllBooksContainer = ({ initialBooks, categories }) => {
               </svg>
             </div>
             <h3 className="text-2xl font-bold text-base-content mb-2">No books found</h3>
-            <p className="text-neutral font-bold">Try selecting a different category or refining your search.</p>
+            <p className="text-base-content/60 font-medium">Try selecting a different category or refining your search.</p>
           </div>
         )}
       </div>
