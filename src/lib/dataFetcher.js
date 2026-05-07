@@ -1,12 +1,15 @@
 // Utility functions to fetch data from local JSON files using the native fetch() function.
-// This mimics fetching data from an external API endpoint.
+// Using force-cache to ensure the data is stored/cached for performance.
 
-const BASE_URL = "http://localhost:3000" || "https://hive-book.vercel.app";
+const getBaseUrl = () => {
+  return  "https://bookhibe-server.onrender.com";
+};
 
 export const fetchBooks = async () => {
   try {
-    const response = await fetch(`${BASE_URL}/data.json`, {
-      cache: "no-store", // Ensure we get fresh data
+    const url = `${getBaseUrl()}/books`;
+    const response = await fetch(url, {
+      cache: "force-cache", // "it would be stored" - persistent caching
     });
     if (!response.ok) {
       throw new Error("Failed to fetch books");
@@ -20,8 +23,9 @@ export const fetchBooks = async () => {
 
 export const fetchCategories = async () => {
   try {
-    const response = await fetch(`${BASE_URL}/catagory.json`, {
-      cache: "no-store",
+    const url = `${getBaseUrl()}/categories`;
+    const response = await fetch(url, {
+      cache: "force-cache",
     });
     if (!response.ok) {
       throw new Error("Failed to fetch categories");

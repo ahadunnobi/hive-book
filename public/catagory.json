@@ -34,11 +34,5 @@
     "name": "History",
     "slug": "history",
     "description": "Historical accounts and records"
-  },
-  {
-    "id": 7,
-    "name": "Religion",
-    "slug": "religion",
-    "description": "Religious texts and spiritual books"
   }
 ]
