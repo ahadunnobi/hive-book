@@ -94,6 +94,12 @@ const BookDetailsPage = ({ params }) => {
                   src={book.image_url}
                   alt={book.title}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  onError={(e) => {
+                    e.target.onerror = null;
+                    e.target.style.display = 'none';
+                    e.target.parentNode.classList.add('flex', 'items-center', 'justify-center');
+                    e.target.parentNode.innerHTML = `<div class="text-primary/10 font-black text-6xl uppercase tracking-tighter -rotate-12 select-none">${book.category}</div>`;
+                  }}
                 />
               ) : (
                 <div className="absolute inset-0 flex items-center justify-center text-primary/10 font-black text-6xl uppercase tracking-tighter -rotate-12 select-none">

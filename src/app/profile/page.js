@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 import { useAuth } from "@/context/AuthContext";
 import toast from "react-hot-toast";
 
@@ -45,7 +46,10 @@ const ProfilePage = () => {
               <h1 className="text-3xl md:text-4xl font-black text-base-content tracking-tight">{user.name}</h1>
               <p className="text-base-content/50 font-medium">{user.email}</p>
             </div>
-            <div className="md:ml-auto pb-2">
+            <div className="md:ml-auto pb-2 flex flex-col sm:flex-row gap-3">
+              <Link href="/profile/update" className="btn btn-primary rounded-2xl px-8 font-bold shadow-lg shadow-primary/20">
+                Update Information
+              </Link>
               <button onClick={logout} className="btn btn-error btn-outline rounded-2xl px-8 font-bold">
                 Logout Session
               </button>

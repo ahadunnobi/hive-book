@@ -21,7 +21,7 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1 gap-4 font-medium text-base-content">
           <li><Link href="/" className="hover:text-primary transition-colors focus:bg-primary/10">Home</Link></li>
           <li><Link href="/all-books" className="hover:text-primary transition-colors focus:bg-primary/10">All Books</Link></li>
-          {user && <li><Link href="/profile" className="hover:text-primary transition-colors focus:bg-primary/10">My Profile</Link></li>}
+          <li><Link href="/profile" className="hover:text-primary transition-colors focus:bg-primary/10">My Profile</Link></li>
         </ul>
       </div>
       <div className="navbar-end gap-2">
@@ -65,9 +65,9 @@ const Navbar = () => {
           <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 border border-base-200">
             <li><Link href="/" className="font-medium text-base-content">Home</Link></li>
             <li><Link href="/all-books" className="font-medium text-base-content">All Books</Link></li>
-            {user && <li><Link href="/profile" className="font-medium text-base-content">My Profile</Link></li>}
+            <li><Link href="/profile" className="font-medium text-base-content">My Profile</Link></li>
             {!user && <li><Link href="/login" className="font-bold text-primary">Login</Link></li>}
-          </ul>
+        </ul>
         </div>
       </div>
     </div>
