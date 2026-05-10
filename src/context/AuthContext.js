@@ -50,7 +50,9 @@ export const AuthProvider = ({ children }) => {
       name,
       image: photoUrl,
     }, {
-      onSuccess: () => {
+      onSuccess: async () => {
+        await authClient.signOut();
+        setUser(null);
         toast.success("Registration successful! Please login.");
         router.push("/login");
       },
@@ -63,10 +65,16 @@ export const AuthProvider = ({ children }) => {
   };
 
   const googleLogin = async () => {
-    await authClient.signIn.social({
-      provider: "google",
-      callbackURL: "/",
-    });
+    setLoading(true);
+    try {
+      await authClient.signIn.social({
+        provider: "google",
+        callbackURL: "/",
+      });
+    } catch (error) {
+      setLoading(false);
+      console.error("Google login error:", error);
+    }
   };
 
   const logout = async () => {

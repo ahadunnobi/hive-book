@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { useAuth } from '@/context/AuthContext';
 
 const Navbar = () => {
-  const { user, logout } = useAuth();
+  const { user, loading, logout } = useAuth();
 
   return (
     <div className="navbar bg-base-100 shadow-md px-4 md:px-8 sticky top-0 z-50">
@@ -25,7 +25,15 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end gap-2">
-        {user ? (
+        {loading ? (
+          <div className="flex items-center gap-3">
+            <div className="hidden md:flex flex-col items-end gap-1">
+              <div className="skeleton h-3 w-20"></div>
+              <div className="skeleton h-2 w-24 opacity-50"></div>
+            </div>
+            <div className="skeleton w-10 h-10 rounded-full"></div>
+          </div>
+        ) : user ? (
           <div className="flex items-center gap-4">
             <div className="hidden md:flex flex-col items-end">
               <span className="font-bold text-sm text-base-content">{user.name}</span>

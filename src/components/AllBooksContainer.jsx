@@ -37,16 +37,37 @@ const AllBooksContainer = ({ initialBooks, categories }) => {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row gap-8">
-      {/* Sidebar */}
-      <aside className="w-full lg:w-64 space-y-6">
-        <div className="bg-base-200/50 p-6 rounded-3xl border border-base-300">
-          <h3 className="text-xl font-bold mb-4 text-base-content px-2">Categories</h3>
-          <ul className="menu bg-transparent w-full p-0 gap-1">
+    <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-start">
+      {/* Sidebar / Categories Selection */}
+      <aside className="w-full lg:w-64 flex-shrink-0">
+        <div className="bg-base-200/50 p-4 lg:p-6 rounded-[2rem] lg:rounded-3xl border border-base-300 sticky top-24">
+          <h3 className="text-lg lg:text-xl font-bold mb-4 text-base-content px-2 hidden lg:block">Categories</h3>
+          
+          {/* Mobile Category Scroll */}
+          <div className="flex lg:hidden overflow-x-auto gap-2 pb-2 scrollbar-hide">
+            <button 
+              onClick={() => handleCategoryChange("All")}
+              className={`whitespace-nowrap px-6 py-2 rounded-full font-bold text-sm transition-all ${selectedCategory === "All" ? "bg-primary text-primary-content shadow-lg shadow-primary/20" : "bg-base-100 hover:bg-primary/10 border border-base-300"}`}
+            >
+              All Genres
+            </button>
+            {categories.map((cat) => (
+              <button 
+                key={cat.id}
+                onClick={() => handleCategoryChange(cat.name)}
+                className={`whitespace-nowrap px-6 py-2 rounded-full font-bold text-sm transition-all ${selectedCategory === cat.name ? "bg-primary text-primary-content shadow-lg shadow-primary/20" : "bg-base-100 hover:bg-primary/10 border border-base-300"}`}
+              >
+                {cat.name}
+              </button>
+            ))}
+          </div>
+
+          {/* Desktop Category Menu */}
+          <ul className="menu bg-transparent w-full p-0 gap-1 hidden lg:flex">
             <li>
               <button 
                 onClick={() => handleCategoryChange("All")}
-                className={`rounded-xl font-bold py-3 ${selectedCategory === "All" ? "bg-primary text-primary-content" : "hover:bg-primary/10"}`}
+                className={`rounded-xl font-bold py-3 transition-all ${selectedCategory === "All" ? "bg-primary text-primary-content shadow-lg shadow-primary/20" : "hover:bg-primary/10"}`}
               >
                 All Genres
               </button>
@@ -55,7 +76,7 @@ const AllBooksContainer = ({ initialBooks, categories }) => {
               <li key={cat.id}>
                 <button 
                   onClick={() => handleCategoryChange(cat.name)}
-                  className={`rounded-xl font-bold py-3 ${selectedCategory === cat.name ? "bg-primary text-primary-content" : "hover:bg-primary/10"}`}
+                  className={`rounded-xl font-bold py-3 transition-all ${selectedCategory === cat.name ? "bg-primary text-primary-content shadow-lg shadow-primary/20" : "hover:bg-primary/10"}`}
                 >
                   {cat.name}
                 </button>
@@ -64,20 +85,20 @@ const AllBooksContainer = ({ initialBooks, categories }) => {
           </ul>
         </div>
         
-        {/* Quick Info */}
-        <div className="hidden lg:block bg-primary/10 p-6 rounded-3xl border border-primary/20">
+        {/* Quick Info - Hidden on mobile */}
+        <div className="hidden lg:block bg-primary/10 p-6 rounded-3xl border border-primary/20 mt-6">
           <h4 className="font-bold text-primary mb-2">Member Perk</h4>
           <p className="text-xs text-secondary leading-relaxed font-bold">
-            Join the BookHive club to get 20% off on your first 3 purchases in any category!
+            Join the BookHive club to get 20% off on your first 3 purchases!
           </p>
         </div>
       </aside>
 
       {/* Main Content */}
-      <div className="flex-1 space-y-8">
+      <div className="flex-1 space-y-6 lg:space-y-8">
         {/* Search Bar Section */}
-        <div className="relative w-full">
-          <div className="absolute inset-y-0 left-6 flex items-center pointer-events-none">
+        <div className="relative w-full group">
+          <div className="absolute inset-y-0 left-6 flex items-center pointer-events-none group-focus-within:text-primary transition-colors">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-base-content/40" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
             </svg>
@@ -85,7 +106,7 @@ const AllBooksContainer = ({ initialBooks, categories }) => {
           <input
             type="text"
             placeholder="Search by book title..."
-            className="input input-bordered w-full pl-16 py-8 rounded-2xl text-xl text-base-content shadow-lg focus:ring-4 focus:ring-primary/10 transition-all border-base-300"
+            className="input input-bordered w-full pl-16 py-6 lg:py-8 rounded-2xl text-lg lg:text-xl text-base-content shadow-md focus:shadow-xl focus:ring-4 focus:ring-primary/10 transition-all border-base-300"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
@@ -104,8 +125,8 @@ const AllBooksContainer = ({ initialBooks, categories }) => {
         {/* Results Info */}
         <div className="flex items-center justify-between border-b border-base-200 pb-4">
           <div className="flex items-center gap-3">
-            <span className="badge badge-primary font-bold">{selectedCategory}</span>
-            <p className="text-base-content/80 font-medium">
+            <span className="badge badge-primary font-bold px-3 py-3 h-auto">{selectedCategory}</span>
+            <p className="text-base-content/80 font-medium text-sm md:text-base">
               Showing {filteredBooks.length} {filteredBooks.length === 1 ? "book" : "books"}
             </p>
           </div>
@@ -113,11 +134,12 @@ const AllBooksContainer = ({ initialBooks, categories }) => {
 
         {/* Grid Section */}
         {filteredBooks.length > 0 ? (
-          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {filteredBooks.map((book) => (
               <BookCard key={book.id} book={book} />
             ))}
           </div>
+
         ) : (
           <div className="py-20 text-center bg-base-200/50 rounded-[3rem] border-2 border-dashed border-base-300">
             <div className="w-20 h-20 bg-base-100 rounded-full flex items-center justify-center mx-auto mb-6 text-base-content/20 shadow-inner">

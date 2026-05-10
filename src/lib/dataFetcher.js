@@ -39,7 +39,7 @@ export const fetchCategories = async () => {
 
 export const fetchBookById = async (id) => {
   try {
-    const url = `${getBaseUrl()}/book/${id}`;
+    const url = `${getBaseUrl()}/books/${id}`;
     const response = await fetch(url, {
       cache: "force-cache",
     });
