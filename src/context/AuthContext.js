@@ -51,8 +51,8 @@ export const AuthProvider = ({ children }) => {
       image: photoUrl,
     }, {
       onSuccess: () => {
-        toast.success("Registration successful!");
-        router.push("/");
+        toast.success("Registration successful! Please login.");
+        router.push("/login");
       },
       onError: (ctx) => {
         toast.error(ctx.error.message || "Failed to register");
@@ -81,8 +81,27 @@ export const AuthProvider = ({ children }) => {
     });
   };
 
+  const updateUser = async ({ name, image }) => {
+    setLoading(true);
+    try {
+      const { error } = await authClient.updateUser({ name, image });
+      if (error) {
+        toast.error(error.message || "Failed to update profile");
+        return false;
+      }
+      toast.success("Profile updated successfully!");
+      router.push("/profile");
+      return true;
+    } catch (err) {
+      toast.error("An unexpected error occurred");
+      return false;
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
-    <AuthContext.Provider value={{ user, loading: loading || isPending, login, register, googleLogin, logout }}>
+    <AuthContext.Provider value={{ user, loading: loading || isPending, login, register, googleLogin, logout, updateUser }}>
       {children}
     </AuthContext.Provider>
   );
